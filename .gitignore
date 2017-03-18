@@ -287,5 +287,6 @@ __pycache__/
 *.xsd.cs
 
 
-output/
+build/
 /output.bmp
+
