@@ -5,7 +5,7 @@ A simple implementation of the algorithm, Greedy Best-First Search, used in Arti
 
 ![alt tag](/images/braid200.bmp)
 
-![alt tag](/solved/braid200.gif)
+![alt tag](/solved/braid200.bmp)
 
 ![alt tag](/images/perfect4k.bmp)
 
