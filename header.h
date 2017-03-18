@@ -32,7 +32,7 @@ std::vector<std::pair<int, int>> dfs(Node * start, Node* end);
 std::vector<std::pair<int, int>> gbfs(Node * start, Node* end);
 
 //common.cpp
-void printPathToImage(const cimg_library::CImg<unsigned char> &image, const std::vector<std::pair<int, int>> &path, const char * outputPath);
+void printPathToImage(std::string image, const std::vector<std::pair<int, int>> &path, const char * outputPath);
 
 void setupNodes(const cimg_library::CImg<unsigned char> &image, Node* &start, Node* &end);
 
