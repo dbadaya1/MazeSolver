@@ -1,7 +1,9 @@
-#include "dhananjay.h"
+#include "header.h"
 
 #include <queue>
 
+
+/* Greedy Best First Search */
 
 using namespace std;
 
@@ -13,6 +15,7 @@ public:
 		return lhs->heuristic > rhs->heuristic;
 	}
 };
+
 
 vector<pair<int, int>> gbfs(Node * start, Node* end) {
 	std::priority_queue<Node *, std::vector<Node *>, mycomparison> frontier;
