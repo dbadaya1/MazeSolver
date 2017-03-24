@@ -1,9 +1,8 @@
-#include "header.h"
+#include "include/Maze.h"
+#include "include/Node.h"
 
 #include <queue>
 
-
-/* Greedy Best First Search */
 
 using namespace std;
 
@@ -12,24 +11,24 @@ class mycomparison
 public:
 	bool operator() (Node* &lhs, Node* &rhs)
 	{
-		return lhs->heuristic > rhs->heuristic;
+		return lhs->h > rhs->h;
 	}
 };
 
 
-vector<pair<int, int>> gbfs(Node * start, Node* end) {
+bool gbfs(Maze &maze) {
 	std::priority_queue<Node *, std::vector<Node *>, mycomparison> frontier;
 	Node *current = nullptr;
 	Node* childrens[4];
 
-	frontier.push(start);
+	frontier.push(maze.start);
 	while (!frontier.empty()) {
 		current = frontier.top();
 		frontier.pop();
 		current->visited = true;
 
-		if (current == end) {
-			return backtrack(current);
+		if (current == maze.end) {
+			return true;
 		}
 
 		childrens[0] = current->top;
@@ -39,7 +38,7 @@ vector<pair<int, int>> gbfs(Node * start, Node* end) {
 
 		for (int i = 0; i < 4; i++) {
 			if (childrens[i] && !childrens[i]->visited) {
-				if (childrens[i]->heuristic < current->heuristic) {
+				if (childrens[i]->h < current->h) {
 					frontier.push(current);
 					frontier.push(childrens[i]);
 					childrens[i]->previous = current;
@@ -54,7 +53,7 @@ vector<pair<int, int>> gbfs(Node * start, Node* end) {
 		}
 	}
 
-	return backtrack(nullptr);   // No Path Found
+	return false;  // No Path Found
 
 }
 

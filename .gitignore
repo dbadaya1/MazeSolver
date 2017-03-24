@@ -219,6 +219,7 @@ UpgradeLog*.htm
 # SQL Server files
 *.mdf
 *.ldf
+*.ndf
 
 # Business Intelligence projects
 *.rdl.data
@@ -286,7 +287,4 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-
-build/
 /output.bmp
-
