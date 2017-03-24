@@ -1,6 +1,6 @@
 # MazeSolver
 
-A simple implementation of the algorithm, Greedy Best-First Search, used in Artificial Intelligence.
+Project to understand and compare different graph traversals algorithms like bfs, dfs, A-star, greedy best first search etc. by solving mazes of different dimensions using C++.<br>
 
 2000x2000 Maze
 
