@@ -2,10 +2,25 @@
 
 A simple implementation of the algorithm, Greedy Best-First Search, used in Artificial Intelligence.
 
-<p align="center">
-  <img src="images/braid200.bmp" width="350"/>
-  <img src="solved/braid200.bmp" width="350"/>
-</p>
+200x200 Maze
 
-![alt tag](/solved/perfect4k.gif)
+Using DFS
+![alt tag](/solved/braid200_dfs.png)
+
+Using Greedy Best First Search
+![alt tag](/solved/braid200_gbfs.png)
+
+Using A-star
+![alt tag](/solved/braid200_astar.png)
+
+2000x2000 Maze
+
+Using DFS
+![alt tag](/solved/braid2k_dfs.png)
+
+Using Greedy Best First Search
+![alt tag](/solved/braid2k_gbfs.png)
+
+Using A-star
+![alt tag](/solved/braid2k_astar.png)
 
