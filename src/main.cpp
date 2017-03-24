@@ -10,8 +10,8 @@ bool astar(Maze &maze);
 
 
 int main() {
-	string inputFile = "../images/braid200.bmp";
-	string outputFile = "../output.bmp";
+	string inputFile = "images/braid200.bmp";
+	string outputFile = "output.bmp";
 
 	Maze m(inputFile);
 	m.initialize();

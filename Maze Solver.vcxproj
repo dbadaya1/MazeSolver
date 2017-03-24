@@ -111,6 +111,17 @@
     <ClInclude Include="src\include\Maze.h" />
     <ClInclude Include="src\include\Node.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\braid200.bmp" />
+    <Image Include="images\braid2k.bmp" />
+    <Image Include="images\combo6k.bmp" />
+    <Image Include="images\normal.bmp" />
+    <Image Include="images\perfect10k.bmp" />
+    <Image Include="images\perfect2k.bmp" />
+    <Image Include="images\perfect4k.bmp" />
+    <Image Include="images\small.bmp" />
+    <Image Include="images\tiny.bmp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -45,4 +45,33 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\braid2k.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\braid200.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\combo6k.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\perfect2k.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\perfect4k.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\perfect10k.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\small.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\tiny.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
